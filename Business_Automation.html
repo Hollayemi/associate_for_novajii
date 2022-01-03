@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cider Global Business Solutions</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&family=IBM+Plex+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link href="image/cider transparent.png" rel="icon">
+    <script src="js/jquery.min.js"></script>
+    <script src="AOS/dist/aos.js"></script>
+    <link rel="stylesheet" href="AOS/dist/aos.css">
+</head>
+<body>
+<div class="topHeader" id="topHeader" style="box-shadow: 1px 2px 6px 6px rgba(6, 81, 179, 0.138);">
+    <nav>
+        <div class="topLogoDiv">   
+            <img src="image/cider transparent.png" alt="">
+        </div>
+        <div>
+            <i class="fa fa-bars barsIon barsIcon" style="transform:scale(1)"></i>
+
+        </div>
+        <div class="linksDiv">
+            <ul class="ul1" style="top:-100%">
+                <i class="fa fa-remove barsIon removeIcon" style="transform:scale(0);"></i>
+                <li><a href="index.html">Home</a></li>
+                <li onclick="toggleHome(this,300)" id="Expertise"><a href="#">Expertise </a> <i class="fa fa-caret-down Expertise-fa"></i>
+                    <ul class="myUl Expertise-ul" style="height:0px;visibility: hidden;overflow: hidden;">
+                        <li><a href="cloud_migration.html">Migration to Public Cloud</a></li>
+                        <li><a href="Analytics&Data_Management.html">Analytics and Data <br> Management</a></li>
+                        <li><a href="Business_Automation.html">Business Integration and <br> Automation</a></li>
+                    </ul>
+                </li>
+
+                <li onclick="toggleHome(this,450)" id="Services"><a href="#">Services </a> <i class="fa fa-caret-down Services-fa"></i>
+                    <ul class="myUl Services-ul" style="height:0px;visibility: hidden;overflow: hidden;">
+                        <li><a href="high-end-software.html#Business-Solution">Business Solution Services</a></li>
+                        <li><a href="high-end-software.html#High-End-Software">High-End Software <br>Sales & Deployment</a></li>
+                        <li><a href="high-end-software.html#Functional-IT">Functional IT Designs</a></li>
+                        <li><a href="high-end-software.html#IT-Consultancy">Business/IT Consultancy</a></li>
+
+                        <li><a href="high-end-software.html#Software-Services">Software Services</a></li>
+                        <li><a href="high-end-software.html#Networking-Products">Networking Products/Services</a></li>
+
+                    </ul>
+                </li>
+                <li onclick="toggleHome(this,270)" id="Applications"><a href="#">Applications </a><i class="fa fa-caret-down Applications-fa"></i>
+                    <ul class="myUl Applications-ul" style="height:0px;visibility: hidden;overflow: hidden;">
+                        <li><a href="HRM.html">HCM</a></li>
+                        <li><a href="SCM.html">SCM</a></li>
+                        <li><a href="ERP-9.html">ERP-9</a></li>
+                        <li><a href="custom_application.html">Custom Applications</a></li>
+                    </ul>
+                
+                </li>
+                <li onclick="toggleHome(this,270)" id="Company"><a href="company.html">Company </a><i class="fa fa-caret-down Company-fa"></i>
+                    <ul class="myUl Company-ul" style="height:0px;visibility: hidden;overflow: hidden;">
+                        <li><a href="company.html#We">Who We Are</a></li>
+                        <li><a href="company.html#Team">Leadership Team</a></li>
+                        <li><a href="company.html#Careers">Careers</a></li>
+                        <li><a href="company.html#Customers">Our Customers</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+        <main>
+            <section>
+                <div class="crousel otherPages">
+                    <div id="scroll-image">
+                        <div class="test middle-1" style="background-image: url(image/cluster.jpg);"><h2>Business Integration and Automation</h2></div>
+                        <!-- <div class="test" style="background-image: url(image/load2.png);"><h2>Empowering CFOs with Real-Time <br> Insights into Business <br> Performance</h2></div>
+                        <div class="test" style="background-image: url(image/load3.jpg);"><h2>Business Integration & Automation<br> Intelligence <br> Performance</h2></div> -->
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <div class="ourCompany">
+            <h4>Business Integration and Automation</h4>
+        </div>
+
+
+
+        <section>
+
+            <div class="noteBox">
+                <div class="mainBox">
+                    <p>
+                        Managing a business is no easy task and sometimes you need multiple systems just to keep track, 
+                        but using different solutions can become an obstacle to effective growth. We understand the 
+                        problems with having multiple separate tools and no or little connection between them as well 
+                        as issues with security, data duplication and many others.
+                    </p>
+                    <div class="underline">
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="noteBox">
+                <div class="Overview_challenges">
+                    <div><img src="image/overview.png" alt=""><h3>Overview & Challenges</h3></div>
+                    <p>
+                        With the evolution of technology, rising customer expectations and tight competition in almost 
+                        every industry – automation is becoming a must for every business. Along with this, a massive 
+                        array of online tools to solve for these problems is being heavily marketed to every C-level 
+                        executive, while full time IT expertise is scarce and costly for new and growing businesses. 
+                        Established businesses, on the other hand, tend to be tied to an outdated set of tools 
+                        (paper or excel spreadsheets, for example) and fear investment into necessary automation without guided help. 
+                        Most businesses also tend to rely on loosely, if at all, connected set of business automation and analytical 
+                        tools which they heavily dislike or use them for very narrow purposes.
+
+                        <br><br>
+
+                        It is the above situation, that has lead us to grow and expand our business automation and system 
+                        integration services to bring our passion and expertise to businesses of any size. When working 
+                        on such projects we understand and know how to solve for these challenges:
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="noteBox">
+                <div class="forLiS">
+                    <div>
+                        <ul>
+                            <li><div class="circle"></div>Build vs Buy decisions</li>
+                            <li><div class="circle"></div>Single version of truth and data duplication issues</li>
+                            <li><div class="circle"></div>Data warehousing for actionable analytics and BI</li>
+                            <li><div class="circle"></div>Workflow automation and staff transition facilitation</li>
+                            <li><div class="circle"></div>Data cleansing and data quality</li>
+                        </ul>
+                    </div>
+
+
+
+                    <div>
+                        <ul>
+                            <li><div class="circle"></div>Integrations of any complexity between any systems</li>
+                            <li><div class="circle"></div>Manual input automation and OCR system integrations</li>
+                            <li><div class="circle"></div>Custom solutions for cases where existing solutions aren't feasible</li>
+                            <li><div class="circle"></div>Ongoing support and improvement aligned with business growth</li>
+                            <li><div class="circle"></div>Integration of additional data sources to enrich existing data</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="noteBox">
+                <div class="Overview_challenges">
+                    <div><img src="image/tech.png" alt=""><h3>Approach & Technology</h3></div>
+                    <p>
+                        The effect of implementing solutions in business automation and system integration cannot be 
+                        underestimated. They have extreme impact on staff morale, operational costs and customer satisfaction 
+                        as well as allowing executives to make  data driven decisions quickly. Even a small step in automation 
+                        can provide outstanding results and unprecedented ROI. A high level of automation also brings stability 
+                        and reduces escalations which, in turn, make running an efficient 
+                        business almost pain free.
+
+                        <br><br>
+
+                        Here are some outcomes we have had the pleasure of witnessing after working on projects in this field:
+                    </p>
+                </div>
+            </div>
+
+
+
+            <div class="noteBox">
+                <div class="forLiS">
+                    <div>
+                        <ul>
+                            <li><div class="circle"></div> SalesForce integrations with different systems</li>
+                            <li><div class="circle"></div>WordPress, Joomla, Drupal and SharePoint integrations</li>
+                            <li><div class="circle"></div>QuickBooks, Xero, Wave accounting integrations</li>
+                            <li><div class="circle"></div>Multiple Association Management Systems integrations</li>
+                        </ul>
+                    </div>
+
+
+
+                    <div>
+                        <ul>
+                            <li><div class="circle"></div>Various Healthcare integrations (HL7/DICOM/FHIR)</li>
+                            <li><div class="circle"></div>Microsoft O365, Dynamics, AD, Azure integrations</li>
+                            <li><div class="circle"></div>G suite and Google Cloud integrations</li>
+                            <li><div class="circle"></div>Integration of Odoo</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="noteBox">
+                <div class="Overview_challenges">
+                    <div><img src="image/outcome.png" alt=""><h3>Outcome & Effect</h3></div>
+                    <p>
+                        With the evolution of technology, rising customer expectations and tight competition in almost 
+                        every industry – automation is becoming a must for every business. Along with this, a massive 
+                        array of online tools to solve for these problems is being heavily marketed to every C-level 
+                        executive, while full time IT expertise is scarce and costly for new and growing businesses. 
+                        Established businesses, on the other hand, tend to be tied to an outdated set of tools 
+                        (paper or excel spreadsheets, for example) and fear investment into necessary automation without guided help. 
+                        Most businesses also tend to rely on loosely, if at all, connected set of business automation and analytical 
+                        tools which they heavily dislike or use them for very narrow purposes.
+
+                        <br><br>
+
+                        It is the above situation, that has lead us to grow and expand our business automation and system 
+                        integration services to bring our passion and expertise to businesses of any size. When working 
+                        on such projects we understand and know how to solve for these challenges:
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="noteBox">
+                <div class="forLiS">
+                    <div>
+                        <ul>
+                            <li><div class="circle"></div>Employee satisfaction and engagement levels rise due to absence of routine operations</li>
+                            <li><div class="circle"></div>Consumer feedback improves as there are less workflow issues and support cases are resolved quickly</li>
+                            <li><div class="circle"></div>Profit increases due to operational cost reduction</li>
+                            <li><div class="circle"></div>C-level executive morale gets boosted as they stop "putting out fires" and focus on growth</li>
+                        </ul>
+                    </div>
+
+
+
+                    <div>
+                        <ul>
+                            <li><div class="circle"></div>Managers start being more involved in innovation and improvements, as they don't need to oversee automated tasks</li>
+                            <li><div class="circle"></div>Product / service cost is reduced or margin increased</li>
+                            <li><div class="circle"></div>Significant compliance and security improvements</li>
+                            <li><div class="circle"></div>Businesses adapt to market changes quicker and are able to react to new obstacles</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+        
+              
+    <section>
+        <div class="footerDiv">
+            <div class="coverFooter">
+                <div class="addr">
+                    <img src="image/cider transparent.png" alt="">
+                    <h3>
+                        Block 176, Flat3, Zone B. <br> Iba Housing Estate, <br> Iba Lagos.
+                    </h3>
+
+                    <h2>
+                        Follow Us: <br>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-whatsapp"></i>
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-linkedin"></i>
+                    </h2>
+                </div>
+
+                <div class="shortLinks">
+                    <div style="width:320px;">
+                        <ul>
+                            <h3>Expertise</h3>
+                            <li><a href="cloud_migration.html">Migration to Public Cloud</a></li>
+                            <li><a href="Analytics&Data_Management.html">Analytics and Data Management</a></li>
+                            <li><a href="Business_Automation.html">Business Integration and Automation</a></li>
+                            <li><a href="#">Managed Services</a></li>
+                            <li><a href="#">On Premise Applications</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <h3>Applications</h3>
+                            <li><a href="HRM.html">HCM</a></li>
+                            <li><a href="SCM.html">SCM</a></li>
+                            <li><a href="ERP-9.html">EPM</a></li>
+                            <li><a href="custom_application.html">Custom Applications</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <h3>Company</h3>
+                            <li><a href="company.html#We">Who We Are</a></li>
+                            <li><a href="company.html#Team">Leadership Team</a></li>
+                            <li><a href="company.html#Careers">Careers</a></li>
+                            <li><a href="company.html#Customers">Our Customers</a></li>
+                        </ul>
+                    </div>
+
+                    
+                    <div>
+                        <ul>
+                            <h3>Sevices</h3>
+                            <li><a href="high-end-software.html#Business-Solution">Business Solution Services</a></li>
+                            <li><a href="high-end-software.html#High-End-Software">High-End Software <br>Sales & Deployment</a></li>
+                            <li><a href="high-end-software.html#Functional-IT">Functional IT Designs</a></li>
+                            <li><a href="high-end-software.html#IT-Consultancy">Business/IT Consultancy</a></li>
+
+                            <li><a href="high-end-software.html#Software-Services">Software Services</a></li>
+                            <li><a href="high-end-software.html#Networking-Products">Networking Products/Services</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </di>
+        </div>
+    </section>
+    <div class="footerFloor">
+        <div>
+            <h4>&#169 2021 Apps - Cider Global Limited</h4>
+        </div>
+
+        <div class>
+            <span>Privacy Policy</span>
+            <span>Sitemap</span>
+        </div>
+    </div>
+    <script src="AOS/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 600,
+      });
+
+    function toggle(element){
+        var id = element.id + "-p"
+        var chooseClass = "."+element.id + "-s"
+        console.log(id);
+        if(document.getElementById(id).style.height != "auto"){
+            document.getElementById(id).style.height="auto"
+            document.getElementById(id).style.paddingTop="20px"
+            document.getElementById(id).style.paddingBottom="0px"
+            document.querySelector(chooseClass).style.transform = "scale(-1)"
+        }else{
+            document.getElementById(id).style.height="0px"
+            document.getElementById(id).style.paddingTop="0px"
+            document.querySelector(chooseClass).style.transform = "scale(1)"
+        }
+    }
+    </script>
+    <script src="js/index.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

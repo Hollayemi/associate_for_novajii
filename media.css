@@ -1,0 +1,543 @@
+@media screen and (max-width:1300px){
+    .topHeader{
+        position: fixed;
+        padding:0px 20px;
+        z-index:99999990000000000000 !important;
+    }
+}
+@media screen and (max-width:1200px){
+    .topHeader{
+        padding:0px 10px;
+    }
+    .linksDiv ul li{
+        padding:5px 15px;
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .linksDiv ul li a{
+        font-size:18px;
+    }
+    .topBoxes{
+        bottom:-50%;
+    }
+    .secBoxes .topBoxes{
+        margin-top:150px;
+    }
+    .youFirst{
+        text-align: center;
+        width:80%;
+        margin-left:10%;
+        margin-top:200px;
+    }
+    .Togetherness{
+        width:80% !important;
+        margin-left:10%;
+    }
+
+}
+@media screen and (max-width:900px){
+    .experience{
+        width:60%;
+        margin-top:50px;
+    }
+    .experienceRight{
+        width:90%;
+        margin-left:5%;
+    }
+
+    .features{
+        width:96%;
+        margin-left:2%;
+    }
+
+}
+@media screen and (max-width:800px){
+    .removeIcon{
+        position: absolute;
+        color: #fff;
+        top:0px;
+    }
+    .linksDiv .ul1{
+        display: block;
+        position:fixed;
+        overflow-y:auto;
+        top:0px;
+        left:0%;
+        padding-top:100px;
+        background-color: rgba(1, 29, 49, 0.933);
+        width:100%;
+        height:calc(100%);
+        transition:.5s;
+        z-index:9000 !important;
+    }
+    .linksDiv .ul1 li a {color: #fff;}
+    .linksDiv .ul1 li{
+        position: relative;
+        padding-left:30px;
+        border:1px solid rgb(255, 255, 255);
+    }
+    .linksDiv .ul1 li:hover{
+        border-bottom-color: rgb(20, 70, 220);
+    }
+    .linksDiv .ul1 li:hover a{
+        color: rgb(1, 29, 49);
+    }
+    .linksDiv ul ul li{
+        padding-left:5px !important;
+        line-height:37px;
+    }
+    .linksDiv ul ul{
+        position: relative;
+        background-color: rgb(2, 45, 75);
+        z-index:9000 !important;
+        margin:15px;
+        margin-left:5px;
+        width:75%;
+    }
+
+    .linksDiv ul ul li a{
+        color: #fff !important;
+    }
+    .barsIon{
+        transition:.5s;
+        display: block;
+        font-size:30px !important;
+        right:50px !important;
+        line-height:70px !important;
+        position: absolute;
+    }
+    .topLogoDiv img{
+        max-width:130px;
+        margin-top:0px;
+        max-height:150px;
+    }
+    .featuresContent .fdiv{
+        width:100%;
+    }
+
+
+}
+@media screen and (max-width:600px){
+    .mySlides{
+        height:600px;
+        max-height:1000px !important;
+    }
+    .mySlides img{
+        height:100%;
+    }
+    .topBoxes{
+        bottom:-150%;
+    }
+    .topBoxes div div{
+        width:80%;
+    }
+    .topBoxes div div h3{
+        margin-bottom:50px;
+    }
+    .secBoxes .topBoxes{
+        margin-top:-60% !important;
+    }
+    .secBoxes .topBoxes div div{
+        box-shadow: 1px 2px 6px 10px rgba(255, 255, 255, 1.391);
+    }
+    .youFirst{
+        text-align: center;
+        width:95%;
+        margin-left:2%;
+        margin-top:100px;
+    }
+    .youFirst h2{
+        width:70%;
+        margin-left:15%;
+    }
+    .Togetherness{
+        width:100% !important;
+        margin-left:0%;
+    }
+    .Togetherness h2{
+        width:90%;
+        margin-left:5%;
+        font-size:18px;
+    }
+    #scroll-image .test h2{
+        font-size:35px;
+    }
+    .crousel{
+        height:600px;
+    }
+
+    /* aboutExperience */
+
+    .aboutExperience{
+        display: block;
+    }
+    .experience{
+        width:90%;
+        margin-top:50px;
+        margin-left:5%;
+    }
+    .experienceRight{
+        width:90%;
+        margin-left:5%;
+    }
+
+    /* features */
+
+    .features{
+        display: block;
+    }
+    .featuresImages,.featuresImages div img{
+        width:100%;
+    }
+    .featuresImages div img{
+        height:200px;
+    }
+    .featuresContent{
+        width:95%;
+        margin-left:5%;
+    }
+    .sdiv, .fdiv{
+        width:100%;
+        height: auto !important;
+    }
+
+
+
+    /* .footerDiv */
+
+    .coverFooter{
+        display: block;
+    }
+    .addr{
+        width:90%;
+        margin-left:0%;
+        padding:0px;
+    }
+
+    .shortLinks{
+        width:95%;
+        margin-left:2%;
+        margin-top:30px;
+    }
+    .shortLinks div{
+        width:70% !important;
+    }
+
+    /* .footerFloor */
+    .footerFloor{
+        height:auto;
+        padding:0px;
+        display: block;
+        text-align: center;
+    }
+    .addr img{
+        margin-left:0px;
+    }
+}
+*::-webkit-scrollbar{
+  width:15px;
+}
+*::-webkit-scrollbar-button{
+  display: none
+}
+*::-webkit-scrollbar-thumb{
+  background-color: rgb(67, 170, 238);
+  border-radius:20px;
+  box-shadow: 0px 1px 2px 2px rgba(41, 39, 39, 0.433);
+  width:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* company.html */
+@media screen and (max-width:761px){
+    
+    .ourCompany{
+        width:100%;
+        padding:0px 30px;
+        margin-left:0px;
+    }
+    .dd-mas{
+        width:100%;
+        margin-left:0px;
+        padding:0px 5px;
+    }
+}
+    
+@media screen and (max-width:580px){
+    .dd-mas{
+        display:block !important;
+    }
+    
+    .dd-mas2{
+        width:80%;
+        margin-left:10%;
+    }
+    .dd-mas1-img{
+        width:80%;
+        margin-left:10%;
+        max-width:500px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* contact us */
+
+@media screen and (max-width:900px){
+    .forImage{ width:80%; margin-left:10%;}
+    .flex-Contact{
+        display: block;
+    }
+    .formDiv{
+        width:80%;
+        margin-left:10%;
+    }
+}
+@media screen and (max-width:450px){
+    .formDiv{
+        width:92%;
+        margin-left:3%;
+    }
+}
+
+
+
+
+/* ERP */
+
+@media screen and (max-width:920px){
+    .myTally{
+        display: block;
+    }
+    .tallyExp{
+        width:80%;
+        margin-left:10%;
+        padding:20px 10px;
+    }
+    .tallyBook{
+        width:100%;
+        padding:30px 0px;
+    }
+    .tallyBook img{
+        width:60%;
+        height: auto;
+    }
+}
+
+
+
+@media screen and (max-width:650px){
+    
+    .tallyExp{
+        width:100%;
+        margin-left:0%;
+    }
+    .tallyBook img{
+        width:80%;
+        height: auto;
+    }
+    .purchaseBookFlex{
+        display:block;
+    }
+    .eachBook{
+        width:80%;
+        margin-left:10%;
+    }   
+}
+
+
+
+
+/* HRM & SCM */
+
+@media screen and (max-width:770px){
+
+    .hrExp{display: block; }
+    .laterSCM,.topicCase{width:70%; margin-left:15%;}
+    .laterSCM-ol,.topicNote{
+        width:80%;
+        margin-left:10%;
+        margin-top:50px;
+    }
+    .forSmall{
+        display:block;
+        text-align: center;
+    }
+
+    .forSmall h2{
+        text-align: center;
+    }
+    .forRight{
+        display:none;
+    }
+}
+
+@media screen and (max-width:450px){
+    .laterSCM,.topicCase{width:100%; margin-left:0%;}
+    .topicCase h2{font-size:20px;}
+    .laterSCM-ol,.topicNote{
+        padding-left:10px;
+        width:95%;
+        margin-left:2%;
+    }
+}
+
+@media screen and (max-width:450px){
+    .ourCompany h2{
+        font-size:22px;
+    }
+}
+
+
+@media screen and (max-width:650px){
+    .customAppDiv{
+        width:80%;
+        margin-left:10%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .customAppDiv{
+        width:95%;
+        margin-left:2%;
+    }
+}
+
+@media screen and (max-width:700px){
+    .AddressDiv{
+        width:80%;
+        margin-left:10%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .AddressDiv{
+        width:90%;
+        margin-left:5%;
+    }
+
+
+    .toCloud_flex{
+        display: block;
+    }
+    .toCloud_left{
+        height:200px;
+    }
+    .toCloud_left,.toCloud_right,.toCloud_right h4{
+        width:90%;
+        margin-left:5%;
+    }
+}
+
+@media screen and (max-width:810px){
+    .dataManagement{
+        display: block;
+        width:80%;
+        margin-left:10%;
+    }
+    .dataManagement_intro{
+        width:100%;
+        margin-left:0%;
+    }
+    .dataManagement_intro p{
+        padding-right:10px;
+        font-size:14px;
+        line-height:25px;
+    }
+    .dataManagement_pic{
+        width:100%;
+        margin-left:0%;
+    }
+
+}
+@media screen and (max-width:500px){
+    .dataManagement{
+        display: block;
+        width:90%;
+        margin-left:5%;
+    }
+}
+
+
+
+@media screen and (max-width:800px){
+    .mainBox{
+        width:80%;
+        padding: 20px 60px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .forLiS{
+        flex-flow: column;
+    }
+    .Overview_challenges img{
+        margin-left:50px;
+    }
+}
+
+@media screen and (max-width:430px){
+    .Overview_challenges{
+        width:94%;
+    }
+    .Overview_challenges h3{
+        font-size:28px;
+    }
+    .Overview_challenges div{
+        flex-flow: column;
+        width:100%;
+    }
+    .mainBox{
+        width:90%;
+        padding: 20px 20px;
+    }
+}
+
+
+
+
+@media screen and (max-width:1000px){
+    .pl-77{
+        width:80% !important;
+    }
+}
+
+@media screen and (max-width:750px){
+    .pl-77{ width:90% !important;padding:20px; }
+
+    .pl-77 h2{font-size: 30px;}
+    .picGallery img{height:400px !important; }
+    .picGallery2{flex-flow: column;}
+    .picGallery2 img{width:80%;border-radius:10px;height:240px;margin-top:40px;}
+}
+
+
+@media screen and (max-width:450px){
+    .pl-77{ width:100% !important;padding:20px; }
+
+    .pl-77 h2{font-size: 30px;}
+    .picGallery img{height:400px !important;width:100%; }
+    .picGallery2{flex-flow: column;}
+    .picGallery2 img{width:80%;border-radius:10px;height:240px;margin-top:40px;}
+}

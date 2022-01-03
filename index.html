@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cider Global Business Solutions</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="media.css">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&family=IBM+Plex+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link href="image/cider transparent.png" rel="icon">
+    <script src="js/jquery.min.js"></script>
+    <script src="AOS/dist/aos.js"></script>
+    <link rel="stylesheet" href="AOS/dist/aos.css">
+</head>
+<body>
+<div class="topHeader" id="topHeader" style="box-shadow: 1px 2px 6px 6px rgba(6, 81, 179, 0.138);">
+    <nav>
+        <div class="topLogoDiv">   
+            <img src="image/cider transparent.png" alt="">
+        </div>
+        <div>
+            <i class="fa fa-bars barsIon barsIcon" style="transform:scale(1)"></i>
+            
+
+        </div>
+        <div class="linksDiv">
+            <ul class="ul1" style="top:-100%">
+                <i class="fa fa-remove barsIon removeIcon" style="transform:scale(0);"></i>
+                <li><a href="index.html">Home</a></li>
+                <li onclick="toggleHome(this,300)" id="Expertise"><a href="#">Expertise </a> <i class="fa fa-caret-down Expertise-fa"></i>
+                    <ul class="myUl Expertise-ul" style="height:0px;visibility: hidden;overflow: hidden;">
+                        <li><a href="cloud_migration.html">Migration to Public Cloud</a></li>
+                        <li><a href="Analytics&Data_Management.html">Analytics and Data <br> Management</a></li>
+                        <li><a href="Business_Automation.html">Business Integration and <br> Automation</a></li>
+                    </ul>
+                </li>
+
+                <li onclick="toggleHome(this,450)" id="Services"><a href="#">Services </a> <i class="fa fa-caret-down Services-fa"></i>
+                    <ul class="myUl Services-ul" style="height:0px;visibility: hidden;overflow: hidden;">
+                        <li><a href="high-end-software.html#Business-Solution">Business Solution Services</a></li>
+                        <li><a href="high-end-software.html#High-End-Software">High-End Software <br>Sales & Deployment</a></li>
+                        <li><a href="high-end-software.html#Functional-IT">Functional IT Designs</a></li>
+                        <li><a href="high-end-software.html#IT-Consultancy">Business/IT Consultancy</a></li>
+
+                        <li><a href="high-end-software.html#Software-Services">Software Services</a></li>
+                        <li><a href="high-end-software.html#Networking-Products">Networking Products/Services</a></li>
+
+                    </ul>
+                </li>
+
+
+                <li onclick="toggleHome(this,270)" id="Applications"><a href="#">Applications </a><i class="fa fa-caret-down Applications-fa"></i>
+                    <ul class="myUl Applications-ul" style="height:0px;visibility: hidden;overflow: hidden;">
+                        <li><a href="HRM.html">HCM</a></li>
+                        <li><a href="SCM.html">SCM</a></li>
+                        <li><a href="ERP-9.html">ERP-9</a></li>
+                        <li><a href="custom_application.html">Custom Applications</a></li>
+                    </ul>
+                
+                </li>
+                <li onclick="toggleHome(this,270)" id="Company"><a href="company.html">Company </a><i class="fa fa-caret-down Company-fa"></i>
+                    <ul class="myUl Company-ul" style="height:0px;visibility: hidden;overflow: hidden;">
+                        <li><a href="company.html#We">Who We Are</a></li>
+                        <li><a href="company.html#Team">Leadership Team</a></li>
+                        <li><a href="company.html#Careers">Careers</a></li>
+                        <li><a href="company.html#Customers">Our Customers</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<main>
+    <section>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="image/load1.jpg" style="width:100%">
+              <div class="text"><h2>Digital Companies Identify <br> Key Customer <br> Connections</h2></div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="image/a2.jpg" style="width:100%">
+              <div class="text"><h2>Empowering CFOs with Real-Time <br> Insights into Business <br> Performance</h2></div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="image/a3.jpeg" style="width:100%">
+              <div class="text"><h2>Business Integration & Automation<br> Intelligence <br> Performance</h2></div>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+        
+        <div id="scroll-image"></div>
+            <div class="topBoxes">
+                <div class="div1">
+                    <div data-aos="fade-up" data-aos-delay="800"><p>Enterprise Cloud <br> Applications</p><a href="custom_application.html"><h3> Load More ></h3></a></div>
+                    <div data-aos="fade-up" data-aos-delay="10"><p>Cloud Migration <br>Companies</p><a href="cloud_migration.html"><h3> Load More ></h3></a></div>
+                    <div data-aos="fade-up" data-aos-delay="800"><p>Analytics & Business <br>Intelligence</p><a href="Analytics&Data_Management.html"><h3> Load More ></h3></a></div>
+                    <div data-aos="fade-up" data-aos-delay="10"><p>Business Integration & <br> Automation</p><a href="Business_Automation.html"><h3> Load More ></h3></a></div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- <section class="secBoxes" style="display:none">
+        <div class="topBoxes">
+            <div>
+                <div><img src="image/cloud.png" alt=""><h3><p>600+</p> Cloud Migrations</h3></div>
+                <div><img src="image/customers.png" alt=""><h3><p>600+</p> Loyal Customers</h3></div>
+                <div><img src="image/analytics.png" alt=""><h3><p>600+</p> Cloud Certifications</h3></div>
+                <div><img src="image/arrows.png" alt=""><h3><p>600+</p> Years in Business</h3></div>
+            </div>
+        </div>
+
+    </section> -->
+    <section class="udirstSec">
+        <div class="youFirst" data-aos="flip-up">
+            <h3>You first</h3>
+            <p> Your success requires informed long-term planning and agile execution sprints to hit the mark. 
+                As a leading digital transformation enterprise application services leader, our history addresses your present needs.
+                Using empirical data and hands-on experience, 
+                we improve business outcomes and lower the total cost of technology investments.
+            </p>
+
+            <h2>More About Apps</h2>
+        </div>
+
+        <br><br><br><br><br>
+
+        <div class="BodyTogetherness">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mySvg" viewBox="0 0 1440 320"><path fill=" rgb(255, 255, 255)" fill-opacity="1" d="M0,256L16,256C32,256,64,256,96,224C128,192,160,128,192,117.3C224,107,256,149,288,186.7C320,224,352,256,384,250.7C416,245,448,203,480,202.7C512,203,544,245,576,250.7C608,256,640,224,672,229.3C704,235,736,277,768,293.3C800,309,832,299,864,282.7C896,267,928,245,960,245.3C992,245,1024,267,1056,250.7C1088,235,1120,181,1152,138.7C1184,96,1216,64,1248,53.3C1280,43,1312,53,1344,90.7C1376,128,1408,192,1424,224L1440,256L1440,0L1424,0C1408,0,1376,0,1344,0C1312,0,1280,0,1248,0C1216,0,1184,0,1152,0C1120,0,1088,0,1056,0C1024,0,992,0,960,0C928,0,896,0,864,0C832,0,800,0,768,0C736,0,704,0,672,0C640,0,608,0,576,0C544,0,512,0,480,0C448,0,416,0,384,0C352,0,320,0,288,0C256,0,224,0,192,0C160,0,128,0,96,0C64,0,32,0,16,0L0,0Z"></path></svg>
+            <div class="Togetherness">
+                <h3>Together.</h3>
+                <p> In 2021, strategic technology investment spending will rebound, a notable departure from the call to unilaterally cut IT expenses for the past decade. Born of necessity and a focus on growth and business continuity, executive leadership will push forward technology agendas designed to support a distributed workforce, adopt a customer-first mindset and retain employees.
+                    <br><br>
+                    A trusted enterprise application services leader, Apps Associates ensures your investments yield measurable results. With more than two decades of experience aligning business and technology imperatives, we serve as an extension of your leadership and operations teams, helping you drive forward digital transformation while simultaneously running critical business operations.
+                </p>
+            </div>
+            <div class="ntn"><h4>2</h4></div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section>
+        <div class="aboutExperience">
+            <div class="experienceRight">
+                <a href="cloud_migration.html">
+                <div>
+                    <div class="hoverUnderline"></div>
+                    <h3>Cloud Migration</h3>
+                    <p>
+                        Cloud Migration services help you implement your cloud strategy with a structured, 
+                        risk-mitigated approach for full-stack migration—while laying a solid security foundation 
+                        for continuous performance improvements and DevOps. 
+                    </p>
+                    
+                </div>
+            </a>
+
+            <a href="Analytics&Data_Management.html">
+                <div>
+                    <div class="hoverUnderline"></div>
+                    <h3>Analytics and Data management</h3>
+                    <p>
+                        Data management requirements are a moving target and change is a given. 
+                        They are driven by regulatory demands for more granular reporting, by an increased focus on the strength of 
+                        the integration process, business needs for faster access to more data to improve decision making.
+                    </p>
+                </div>
+
+            </a>
+
+            <a href="Business_Automation.html">
+                <div>
+                    <div class="hoverUnderline"></div>
+                    <h3>Business Integration and Automation</h3>
+                    <p>
+                        Managing a business is no easy task and sometimes you need multiple systems just to
+                         keep track, but using different solutions can become an obstacle to effective growth. We
+                          understand the problems with having multiple separate tools and no or little connection between 
+                          them as well as issues with security, data duplication and many others.
+                    </p>
+                    
+                </div>
+            </a>
+
+
+            <a href="high-end-software.html#Business-Solution">
+                <div>
+                    <div class="hoverUnderline"></div>
+                    <h3>Business Solution Services</h3>
+                    <p>
+                        Business solutions services with cutting edge ideas in Business Process Management, 
+                        Management Consulting, Accounting Services and HR Planning/Outsourcing. 
+                        We deliver holistic and integrated solutions built from scratch to client 
+                        specifications or bought off-the-shelve and customized to meet client requirements.
+                    </p>
+                </div>
+            </a>
+
+            <a href="high-end-software.html#Functional-IT">
+                <div>
+                    <div class="hoverUnderline"></div>
+                    <h3>Functional IT Designs</h3>
+                    <p>
+                        Are you looking to build a system, product or service from scratch or to 
+                        overhaul an existing one? Our functional design (FD) team will focus on 
+                        the actions and flows to ensure you optimize your process flow and maximize 
+                        your earned value. Our functional design specification (FDS) identifies what its 
+                        design object is to do and is more concerned with what is to be done and less with
+                         how it happens. 
+                    </p>
+                </div>
+            </a>
+
+            <a href="ERP-9.html">
+                <div>
+                    <div class="hoverUnderline"></div>
+                    <h3>ERP 9</h3>
+                    <p>
+                        We offer experience and the talent needed to accelerate your digital transformation initiatives.
+                        Plus, our proprietary suite of diagnostics tools provides a holistic view of your Oracle investment. 
+                        Apps Associates helps you evaluate future technology investments while extracting value from your current footprint.
+                    </p>
+                </div>
+            </a>
+            
+            </div>
+            
+        </div>
+    </section>
+
+<br><br><br>
+    <section>
+        <div class="footerDiv">
+            <div class="coverFooter">
+                <div class="addr">
+                    <img src="image/cider transparent.png" alt="">
+                    <h3>
+                        Block 176, Flat3, Zone B. <br> Iba Housing Estate, <br> Iba Lagos.
+                    </h3>
+
+                    <h2>
+                        Follow Us: <br>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-whatsapp"></i>
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-linkedin"></i>
+                    </h2>
+                </div>
+
+                <div class="shortLinks">
+                    <div style="width:320px;">
+                        <ul>
+                            <h3>Expertise</h3>
+                            <li><a href="cloud_migration.html">Migration to Public Cloud</a></li>
+                            <li><a href="Analytics&Data_Management.html">Analytics and Data Management</a></li>
+                            <li><a href="Business_Automation.html">Business Integration and Automation</a></li>
+                            <li><a href="#">Managed Services</a></li>
+                            <li><a href="#">On Premise Applications</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <h3>Applications</h3>
+                            <li><a href="HRM.html">HCM</a></li>
+                            <li><a href="SCM.html">SCM</a></li>
+                            <li><a href="ERP-9.html">EPM</a></li>
+                            <li><a href="custom_application.html">Custom Applications</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <h3>Company</h3>
+                            <li><a href="company.html#We">Who We Are</a></li>
+                            <li><a href="company.html#Team">Leadership Team</a></li>
+                            <li><a href="company.html#Careers">Careers</a></li>
+                            <li><a href="company.html#Customers">Our Customers</a></li>
+                        </ul>
+                    </div>
+
+                    
+                    <div>
+                        <ul>
+                            <h3>Sevices</h3>
+                            <li><a href="high-end-software.html#Business-Solution">Business Solution Services</a></li>
+                            <li><a href="high-end-software.html#High-End-Software">High-End Software <br>Sales & Deployment</a></li>
+                            <li><a href="high-end-software.html#Functional-IT">Functional IT Designs</a></li>
+                            <li><a href="high-end-software.html#IT-Consultancy">Business/IT Consultancy</a></li>
+
+                            <li><a href="high-end-software.html#Software-Services">Software Services</a></li>
+                            <li><a href="high-end-software.html#Networking-Products">Networking Products/Services</a></li>
+                        </ul>
+                    </div>
+
+                    
+                </div>
+            </di>
+        </div>
+    </section>
+    <div class="footerFloor">
+        <div>
+            <h4>&#169 2021 Apps - Cider Global Limited</h4>
+        </div>
+
+        <div class>
+            <span>Privacy Policy</span>
+            <span>Sitemap</span>
+        </div>
+    </div>
+    <script src="AOS/dist/aos.js"></script>
+        <script>
+          AOS.init({
+            duration: 600,
+          });
+        </script>
+
+    <script src="js/index.js"></script>
+</main>
+</body>
+</html>
+
+
